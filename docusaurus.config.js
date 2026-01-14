@@ -17,6 +17,9 @@ const rehypeRawOptions = {
 };
 
 
+const organizationName = 'newportg'; // Usually your GitHub org/user name.
+const projectName = 'POC-DocumentationWiki-Docusaurus'; // Usually your repo name.
+
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
@@ -30,14 +33,14 @@ const config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
-
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
+  // Set the production url of your site here
+  url: `https://${organizationName}.github.io`,
+  // Set the /<baseUrl>/ pathname under which your site is served
+  // For GitHub pages deployment, it is often '/<projectName>/'
+  baseUrl : `/${projectName}/`,
+
   organizationName: 'newportg', // Usually your GitHub org/user name.
   projectName: 'POC-DocumentationWiki-Docusaurus', // Usually your repo name.
 
