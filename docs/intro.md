@@ -12,9 +12,9 @@ Docusaurus natively supports Mermaid, but PlantUML and Structurizr require commu
 - Mermaid: Docusaurus has native support for Mermaid via a simple configuration in docusaurus.config.js, making it a very seamless option. 
 - 
 
-- Site : [Quarto](https://Docusaurus.io/)
+- Site : [Docusaurus](https://Docusaurus.io/)
 - Examples 
-  - [This Site](https://newportg.github.io/)
+  - [This Site](https://newportg.github.io/POC-DocumentationWiki-Docusaurus)
 
 
 ## Markdown support in Docusaurus
